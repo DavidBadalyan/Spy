@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Spy</string>
+    <string name="button_english">Անգլերեն</string>
+    <string name="button_armenian">Հայերեն</string>
+    <string name="button_russian">Ռուսերեն</string>
+    <string name="next">Շարունակել</string>
+    <string name="categories">Կատեգորիաներ</string>
+    <string name="locations">Տեղանուններ</string>
+    <string name="jobs">Մասնագիտություններ</string>
+    <string name="animals">Կենդանիներ</string>
+    <string name="food">Սնունդ</string>
+    <string name="movies">Ֆիլմեր</string>
+    <string name="shows">Սերիալներ</string>
+    <string name="celebrities">Աստղեր</string>
+    <string name="footballers">Ֆուտբոլիստներ</string>
+</resources>

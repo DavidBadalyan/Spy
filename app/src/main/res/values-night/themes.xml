@@ -1,13 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Base.Theme.Spy" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:colorBackground">#0F1C18</item>
+        <item name="android:colorBackground">@color/dark_green</item>
         <item name="android:textColorPrimary">#FFFFFF</item>
 
-        <item name="colorPrimary">#D1CEBB</item>
-        <item name="colorOnPrimary">#354942</item>
+        <item name="colorPrimary">@color/beigr</item>
+        <item name="colorOnPrimary">@color/light_green</item>
 
-        <item name="colorSurface">#D1CEBB</item>
-        <item name="colorOnSurface">#354942</item>
+        <item name="colorSurface">@color/beigr</item>
+        <item name="colorOnSurface">@color/light_green</item>
     </style>
 
     <style name="Theme.Spy" parent="Base.Theme.Spy" />

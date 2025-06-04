@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Spy</string>
+    <string name="button_english">Английский</string>
+    <string name="button_armenian">Армянский</string>
+    <string name="button_russian">Русский</string>
+    <string name="next">Продолжить</string>
+    <string name="categories">Категории</string>
+    <string name="locations">Локации</string>
+    <string name="jobs">Профессии</string>
+    <string name="animals">Животные</string>
+    <string name="food">Еда</string>
+    <string name="movies">Фильмы</string>
+    <string name="shows">Сериалы</string>
+    <string name="celebrities">Звезды</string>
+    <string name="footballers">Футболисты</string>
+</resources>
