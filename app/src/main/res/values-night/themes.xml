@@ -1,7 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.Spy" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:colorBackground">#0F1C18</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+
+        <item name="colorPrimary">#D1CEBB</item>
+        <item name="colorOnPrimary">#354942</item>
+
+        <item name="colorSurface">#D1CEBB</item>
+        <item name="colorOnSurface">#354942</item>
     </style>
+
+    <style name="Theme.Spy" parent="Base.Theme.Spy" />
 </resources>
