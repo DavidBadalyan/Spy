@@ -13,4 +13,11 @@
     <string name="shows">Сериалы</string>
     <string name="celebrities">Звезды</string>
     <string name="footballers">Футболисты</string>
+    <string name="players">Игроки</string>
+    <string name="spies">Шпионы</string>
+    <string name="time">Время</string>
+    <string name="start">Начать</string>
+    <string name="player_number">Игрок Номер </string>
+    <string name="next_player">Следующий Игрок</string>
+    <string name="start_timer">Начать Таймер</string>
 </resources>

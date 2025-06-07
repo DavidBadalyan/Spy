@@ -6,7 +6,7 @@
         <item name="colorPrimary">@color/beigr</item>
         <item name="colorOnPrimary">@color/light_green</item>
 
-        <item name="colorSurface">@color/beigr</item>
+        <item name="colorSurface">#FFD99F</item>
         <item name="colorOnSurface">@color/light_green</item>
     </style>
 

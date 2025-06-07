@@ -36,80 +36,88 @@
             android:gravity="center_horizontal">
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/locations"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/locations"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/jobs"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/jobs"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/animals"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/animals"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/food"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/food"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/movies"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/movies"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/shows"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/shows"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/celebrities"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/celebrities"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/footballers"
                 android:layout_width="250dp"
                 android:layout_height="50dp"
                 android:layout_marginBottom="20dp"
-                android:background="@drawable/primary_button"
+                android:background="@drawable/category_card_gradient"
                 android:text="@string/footballers"
                 android:textAllCaps="false"
                 android:textColor="?attr/colorOnSurface"

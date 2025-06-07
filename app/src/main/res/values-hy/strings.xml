@@ -13,4 +13,11 @@
     <string name="shows">Սերիալներ</string>
     <string name="celebrities">Աստղեր</string>
     <string name="footballers">Ֆուտբոլիստներ</string>
+    <string name="players">Խաղացողներ</string>
+    <string name="spies">Լրտեսներ</string>
+    <string name="time">Ժամանակ</string>
+    <string name="start">Սկսել</string>
+    <string name="player_number">Խաղացող Համար </string>
+    <string name="next_player">Հաջորդ Խաղացող</string>
+    <string name="start_timer">Սկսել Ժամանակը</string>
 </resources>

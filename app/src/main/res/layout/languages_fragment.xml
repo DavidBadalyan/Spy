@@ -124,7 +124,7 @@
         android:background="@drawable/button_next"
         android:text="@string/next"
         android:textAllCaps="false"
-        android:textColor="?attr/colorOnPrimary"
+        android:textColor="?attr/colorOnSurface"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/english_layout" />

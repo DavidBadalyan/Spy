@@ -13,4 +13,11 @@
     <string name="shows">Shows</string>
     <string name="celebrities">Celebrities</string>
     <string name="footballers">Football Players</string>
+    <string name="players">Players</string>
+    <string name="spies">Spies</string>
+    <string name="time">Time</string>
+    <string name="start">Start</string>
+    <string name="player_number">Player Number </string>
+    <string name="next_player">Next Player</string>
+    <string name="start_timer">Start Timer</string>
 </resources>

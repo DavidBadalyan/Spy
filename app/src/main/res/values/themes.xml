@@ -7,7 +7,7 @@
         <item name="colorOnPrimary">@color/beigr</item>
 
         <item name="colorSurface">@color/light_green</item>
-        <item name="colorOnSurface">@color/beigr</item>
+        <item name="colorOnSurface">@color/white</item>
     </style>
 
     <style name="Theme.Spy" parent="Base.Theme.Spy" />
