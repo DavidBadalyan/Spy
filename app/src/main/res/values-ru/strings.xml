@@ -20,4 +20,619 @@
     <string name="player_number">Игрок Номер </string>
     <string name="next_player">Следующий Игрок</string>
     <string name="start_timer">Начать Таймер</string>
+
+    <string-array name="locations">
+        <item>Банк</item>
+        <item>Школа</item>
+        <item>Университет</item>
+        <item>Кинотеатр</item>
+        <item>Больница</item>
+        <item>Полицейский участок</item>
+        <item>Ресторан</item>
+        <item>Кафе</item>
+        <item>Супермаркет</item>
+        <item>Парк</item>
+        <item>Библиотека</item>
+        <item>Зоопарк</item>
+        <item>Музей</item>
+        <item>Замок</item>
+        <item>Дом с привидениями</item>
+        <item>Заколдованный лес</item>
+        <item>Туалет</item>
+        <item>Джунгли</item>
+        <item>Пустыня</item>
+        <item>Остров</item>
+        <item>Отель</item>
+        <item>Тюрьма</item>
+        <item>Зал суда</item>
+        <item>Камера</item>
+        <item>Подвал</item>
+        <item>Чердак</item>
+        <item>Лифт</item>
+        <item>Подземелье</item>
+        <item>Тронный зал</item>
+        <item>Ночной клуб</item>
+        <item>Бар</item>
+        <item>Казино</item>
+        <item>Тренажёрный зал</item>
+        <item>Аквапарк</item>
+        <item>Боулинг</item>
+        <item>Книжный магазин</item>
+        <item>Нью-Йорк</item>
+        <item>Токио</item>
+        <item>Париж</item>
+        <item>Лондон</item>
+        <item>Рим</item>
+        <item>Дубай</item>
+        <item>Египет</item>
+        <item>Антарктида</item>
+        <item>Эверест</item>
+        <item>Венеция</item>
+        <item>Сахара</item>
+        <item>Хогвартс</item>
+        <item>Космическая станция</item>
+        <item>Парк аттракционов</item>
+        <item>Пляж</item>
+        <item>Станция метро</item>
+        <item>Самолёт</item>
+        <item>Вокзал</item>
+        <item>Автобусная остановка</item>
+        <item>Круизный лайнер</item>
+        <item>Вулкан</item>
+        <item>Подводный город</item>
+        <item>Маяк</item>
+        <item>Пещера</item>
+        <item>Мост</item>
+        <item>Обсерватория</item>
+        <item>Океанариум</item>
+        <item>Ледяной дворец</item>
+        <item>Стадион</item>
+        <item>Рынок</item>
+        <item>Ферма</item>
+        <item>Завод</item>
+        <item>Лаборатория</item>
+        <item>Храм</item>
+        <item>Кладбище</item>
+        <item>Болото</item>
+    </string-array>
+
+    <string-array name="jobs">
+        <item>Врач</item>
+        <item>Учитель</item>
+        <item>Инженер</item>
+        <item>Полицейский</item>
+        <item>Пожарный</item>
+        <item>Шеф-повар</item>
+        <item>Официант</item>
+        <item>Механик</item>
+        <item>Сантехник</item>
+        <item>Электрик</item>
+        <item>Фермер</item>
+        <item>Пилот</item>
+        <item>Стюардесса</item>
+        <item>Актёр</item>
+        <item>Певец</item>
+        <item>Танцор</item>
+        <item>Писатель</item>
+        <item>Журналист</item>
+        <item>Фотограф</item>
+        <item>Адвокат</item>
+        <item>Судья</item>
+        <item>Медсестра</item>
+        <item>Стоматолог</item>
+        <item>Архитектор</item>
+        <item>Учёный</item>
+        <item>Программист</item>
+        <item>Веб-разработчик</item>
+        <item>Гейм-дизайнер</item>
+        <item>Графический дизайнер</item>
+        <item>Художник</item>
+        <item>Музыкант</item>
+        <item>Психолог</item>
+        <item>Терапевт</item>
+        <item>Библиотекарь</item>
+        <item>Кассир</item>
+        <item>Ресепшионист</item>
+        <item>Строитель</item>
+        <item>Таксист</item>
+        <item>Водитель автобуса</item>
+        <item>Солдат</item>
+        <item>Моряк</item>
+        <item>Дизайнер одежды</item>
+        <item>Модель</item>
+        <item>Риелтор</item>
+        <item>Банкир</item>
+        <item>Бухгалтер</item>
+        <item>Переводчик</item>
+        <item>Фитнес-тренер</item>
+        <item>Фокусник</item>
+        <item>Блогер</item>
+        <item>Космонавт</item>
+        <item>IT-специалист</item>
+        <item>Охранник</item>
+        <item>Редактор</item>
+        <item>Режиссёр</item>
+        <item>Продюсер</item>
+        <item>Дублёр</item>
+        <item>Аниматор</item>
+        <item>Парикмахер</item>
+        <item>Парикмахер-стилист</item>
+        <item>Визажист</item>
+        <item>Менеджер соцсетей</item>
+        <item>Курьер</item>
+        <item>Уборщик</item>
+        <item>Няня</item>
+        <item>Ветеринар</item>
+        <item>Биолог</item>
+        <item>Химик</item>
+        <item>Историк</item>
+        <item>Экскурсовод</item>
+        <item>Организатор мероприятий</item>
+        <item>Археолог</item>
+    </string-array>
+
+    <string-array name="animals">
+        <item>Собака</item>
+        <item>Кошка</item>
+        <item>Лошадь</item>
+        <item>Корова</item>
+        <item>Свинья</item>
+        <item>Овца</item>
+        <item>Коза</item>
+        <item>Курица</item>
+        <item>Утка</item>
+        <item>Гусь</item>
+        <item>Индейка</item>
+        <item>Кролик</item>
+        <item>Хомяк</item>
+        <item>Морская свинка</item>
+        <item>Мышь</item>
+        <item>Крыса</item>
+        <item>Олень</item>
+        <item>Лиса</item>
+        <item>Волк</item>
+        <item>Медведь</item>
+        <item>Лев</item>
+        <item>Тигр</item>
+        <item>Леопард</item>
+        <item>Гепард</item>
+        <item>Слон</item>
+        <item>Жираф</item>
+        <item>Зебра</item>
+        <item>Бегемот</item>
+        <item>Носорог</item>
+        <item>Кенгуру</item>
+        <item>Коала</item>
+        <item>Панда</item>
+        <item>Обезьяна</item>
+        <item>Горилла</item>
+        <item>Шимпанзе</item>
+        <item>Летучая мышь</item>
+        <item>Ёж</item>
+        <item>Белка</item>
+        <item>Енот</item>
+        <item>Скунс</item>
+        <item>Крот</item>
+        <item>Выдра</item>
+        <item>Дельфин</item>
+        <item>Кит</item>
+        <item>Акула</item>
+        <item>Осьминог</item>
+        <item>Кальмар</item>
+        <item>Краб</item>
+        <item>Омар</item>
+        <item>Тюлень</item>
+        <item>Пингвин</item>
+        <item>Орёл</item>
+        <item>Ястреб</item>
+        <item>Сова</item>
+        <item>Ворона</item>
+        <item>Лебедь</item>
+        <item>Фламинго</item>
+        <item>Павлин</item>
+        <item>Аист</item>
+        <item>Голубь</item>
+        <item>Чайка</item>
+        <item>Ящерица</item>
+        <item>Змея</item>
+        <item>Лягушка</item>
+        <item>Жаба</item>
+        <item>Крокодил</item>
+        <item>Черепаха</item>
+        <item>Сухопутная черепаха</item>
+        <item>Муравей</item>
+        <item>Пчела</item>
+        <item>Бабочка</item>
+        <item>Паук</item>
+    </string-array>
+
+    <string-array name="foods">
+        <item>Пицца</item>
+        <item>Бургер</item>
+        <item>Хот-дог</item>
+        <item>Бутерброд</item>
+        <item>Паста</item>
+        <item>Спагетти</item>
+        <item>Лазанья</item>
+        <item>Салат</item>
+        <item>Суп</item>
+        <item>Стейк</item>
+        <item>Курица</item>
+        <item>Рыба</item>
+        <item>Рис</item>
+        <item>Хлеб</item>
+        <item>Сыр</item>
+        <item>Яйцо</item>
+        <item>Колбаса</item>
+        <item>Бекон</item>
+        <item>Картофель фри</item>
+        <item>Наггетсы</item>
+        <item>Омлет</item>
+        <item>Блин</item>
+        <item>Вафля</item>
+        <item>Хлопья</item>
+        <item>Йогурт</item>
+        <item>Мороженое</item>
+        <item>Шоколад</item>
+        <item>Торт</item>
+        <item>Пирог</item>
+        <item>Пончик</item>
+        <item>Маффин</item>
+        <item>Печенье</item>
+        <item>Яблоко</item>
+        <item>Банан</item>
+        <item>Апельсин</item>
+        <item>Клубника</item>
+        <item>Виноград</item>
+        <item>Арбуз</item>
+        <item>Ананас</item>
+        <item>Манго</item>
+        <item>Персик</item>
+        <item>Лимон</item>
+        <item>Помидор</item>
+        <item>Огурец</item>
+        <item>Морковь</item>
+        <item>Картофель</item>
+        <item>Лук</item>
+        <item>Чеснок</item>
+        <item>Кукуруза</item>
+        <item>Горошек</item>
+        <item>Фасоль</item>
+        <item>Чечевица</item>
+        <item>Брокколи</item>
+        <item>Шпинат</item>
+        <item>Капуста</item>
+        <item>Гриб</item>
+        <item>Авокадо</item>
+        <item>Олива</item>
+        <item>Соленья</item>
+        <item>Кетчуп</item>
+        <item>Майонез</item>
+        <item>Горчица</item>
+        <item>Масло</item>
+        <item>Варенье</item>
+        <item>Мёд</item>
+        <item>Сахар</item>
+        <item>Соль</item>
+        <item>Перец</item>
+        <item>Масло</item>
+        <item>Уксус</item>
+        <item>Куриные наггетсы</item>
+        <item>Фрикадельки</item>
+    </string-array>
+
+    <string-array name="movies">
+        <item>Титаник</item>
+        <item>Аватар</item>
+        <item>Начало</item>
+        <item>Крёстный отец</item>
+        <item>Тёмный рыцарь</item>
+        <item>Интерстеллар</item>
+        <item>Гладиатор</item>
+        <item>Мстители: Финал</item>
+        <item>Мстители: Война бесконечности</item>
+        <item>Железный человек</item>
+        <item>Человек-паук: Нет пути домой</item>
+        <item>Человек-паук: Возвращение домой</item>
+        <item>Доктор Стрэндж</item>
+        <item>Первый мститель: Противостояние</item>
+        <item>Чёрная пантера</item>
+        <item>Тор: Рагнарёк</item>
+        <item>Король Лев</item>
+        <item>История игрушек</item>
+        <item>В поисках Немо</item>
+        <item>Вверх</item>
+        <item>Холодное сердце</item>
+        <item>Моана</item>
+        <item>Коко</item>
+        <item>Энканто</item>
+        <item>Суперсемейка</item>
+        <item>Шрек</item>
+        <item>Гадкий я</item>
+        <item>Миньоны</item>
+        <item>Кунг-фу Панда</item>
+        <item>Мадагаскар</item>
+        <item>Как приручить дракона</item>
+        <item>Гарри Поттер и философский камень</item>
+        <item>Гарри Поттер и Дары Смерти</item>
+        <item>Фантастические твари</item>
+        <item>Звёздные войны: Новая надежда</item>
+        <item>Звёздные войны: Пробуждение силы</item>
+        <item>Голодные игры</item>
+        <item>Сумерки</item>
+        <item>Бегущий в лабиринте</item>
+        <item>Дивергент</item>
+        <item>Хроники Нарнии</item>
+        <item>Пираты Карибского моря</item>
+        <item>Властелин колец: Братство кольца</item>
+        <item>Хоббит</item>
+        <item>Матрица</item>
+        <item>Джон Уик</item>
+        <item>Форсаж</item>
+        <item>Парк юрского периода</item>
+        <item>Мир юрского периода</item>
+        <item>Заклятие</item>
+        <item>Оно</item>
+        <item>Аннабель</item>
+        <item>Крик</item>
+        <item>Тихое место</item>
+        <item>Прочь</item>
+        <item>Монахиня</item>
+        <item>Барби</item>
+        <item>Оппенгеймер</item>
+        <item>Дюна</item>
+        <item>Вонка</item>
+        <item>Мег</item>
+        <item>Годзилла против Конга</item>
+        <item>Кот в сапогах: Последнее желание</item>
+        <item>Зверопой</item>
+        <item>Зверополис</item>
+        <item>Лука</item>
+        <item>Душа</item>
+        <item>Я краснею</item>
+        <item>Райя и последний дракон</item>
+        <item>Головоломка</item>
+    </string-array>
+
+    <string-array name="shows">
+        <item>Во все тяжкие</item>
+        <item>Игра престолов</item>
+        <item>Очень странные дела</item>
+        <item>Ходячие мертвецы</item>
+        <item>Одни из нас</item>
+        <item>Мандалорец</item>
+        <item>Локи</item>
+        <item>ВандаВижн</item>
+        <item>Лунный рыцарь</item>
+        <item>Соколиный глаз</item>
+        <item>Сорвиголова</item>
+        <item>Каратель</item>
+        <item>Джессика Джонс</item>
+        <item>Пацаны</item>
+        <item>Непобедимый</item>
+        <item>Ведьмак</item>
+        <item>Уэнсдэй</item>
+        <item>Тень и кость</item>
+        <item>Аркейн</item>
+        <item>Дом дракона</item>
+        <item>Викинги</item>
+        <item>Викинги: Вальхалла</item>
+        <item>Острые козырьки</item>
+        <item>Шерлок</item>
+        <item>Доктор Кто</item>
+        <item>Люцифер</item>
+        <item>Форс-мажоры</item>
+        <item>Друзья</item>
+        <item>Как я встретил вашу маму</item>
+        <item>Теория большого взрыва</item>
+        <item>Современная семья</item>
+        <item>Бруклин 9-9</item>
+        <item>Офис</item>
+        <item>Парки и зоны отдыха</item>
+        <item>Рик и Морти</item>
+        <item>Гриффины</item>
+        <item>Американский папаша</item>
+        <item>Симпсоны</item>
+        <item>Гравити Фолз</item>
+        <item>Время приключений</item>
+        <item>Стивен Юниверс</item>
+        <item>Юные титаны</item>
+        <item>Бен 10</item>
+        <item>Аватар: Легенда об Аанге</item>
+        <item>Легенда о Корре</item>
+        <item>Академия Амбрелла</item>
+        <item>Флэш</item>
+        <item>Стрела</item>
+        <item>Готэм</item>
+        <item>Супергёрл</item>
+        <item>Тайны Смолвиля</item>
+        <item>Корона</item>
+        <item>Ход королевы</item>
+        <item>Манифест</item>
+        <item>Побег</item>
+        <item>13 причин почему</item>
+        <item>Милые обманщицы</item>
+        <item>Отчаянные домохозяйки</item>
+        <item>Остаться в живых</item>
+        <item>Герои</item>
+        <item>Доктор Хаус</item>
+        <item>Хороший доктор</item>
+        <item>Ганнибал</item>
+        <item>Мистер Робот</item>
+        <item>Мотель Бейтсов</item>
+        <item>Эйфория</item>
+        <item>Лузеры</item>
+        <item>Дневники вампира</item>
+        <item>Первородные</item>
+        <item>Сплетница</item>
+        <item>Внешние отмели</item>
+        <item>Сотня</item>
+        <item>Ривердейл</item>
+    </string-array>
+
+    <string-array name="celebrities">
+        <item>Тейлор Свифт</item>
+        <item>Бейонсе</item>
+        <item>Рианна</item>
+        <item>Селена Гомес</item>
+        <item>Ариана Гранде</item>
+        <item>Билли Айлиш</item>
+        <item>Джастин Бибер</item>
+        <item>Гарри Стайлс</item>
+        <item>Зендая</item>
+        <item>Тимоти Шаламе</item>
+        <item>Леонардо ДиКаприо</item>
+        <item>Джонни Депп</item>
+        <item>Брэд Питт</item>
+        <item>Том Круз</item>
+        <item>Дуэйн Джонсон</item>
+        <item>Крис Хемсворт</item>
+        <item>Крис Эванс</item>
+        <item>Роберт Дауни мл.</item>
+        <item>Скарлетт Йоханссон</item>
+        <item>Эмма Уотсон</item>
+        <item>Дженнифер Лоуренс</item>
+        <item>Натали Портман</item>
+        <item>Марго Робби</item>
+        <item>Милли Бобби Браун</item>
+        <item>Ноа Шнапп</item>
+        <item>Финн Вулфард</item>
+        <item>Сэйди Синк</item>
+        <item>Дженна Ортега</item>
+        <item>Педро Паскаль</item>
+        <item>Киану Ривз</item>
+        <item>Райан Рейнольдс</item>
+        <item>Хью Джекман</item>
+        <item>Зак Эфрон</item>
+        <item>Генри Кавилл</item>
+        <item>Галь Гадот</item>
+        <item>Джейсон Момоа</item>
+        <item>Анджелина Джоли</item>
+        <item>Энн Хэтэуэй</item>
+        <item>Меган Фокс</item>
+        <item>Уилл Смит</item>
+        <item>Джейден Смит</item>
+        <item>Морган Фриман</item>
+        <item>Джим Керри</item>
+        <item>Том Хэнкс</item>
+        <item>Адам Сэндлер</item>
+        <item>Дилан О’Брайен</item>
+        <item>Джейкоб Элорди</item>
+        <item>Флоренс Пью</item>
+        <item>Пол Радд</item>
+        <item>Бенедикт Камбербэтч</item>
+        <item>Эндрю Гарфилд</item>
+        <item>Льюис Хэмилтон</item>
+        <item>Шарль Леклер</item>
+        <item>Макс Ферстаппен</item>
+        <item>Ландо Норрис</item>
+        <item>Джордж Расселл</item>
+        <item>Фернандо Алонсо</item>
+        <item>Даниэль Риккардо</item>
+        <item>Карлос Сайнс</item>
+        <item>Себастьян Феттель</item>
+        <item>Оскар Пиастри</item>
+        <item>Михаэль Шумахер</item>
+        <item>Айртон Сенна</item>
+        <item>Леди Гага</item>
+        <item>Шакира</item>
+        <item>Эд Ширан</item>
+        <item>Дрейк</item>
+        <item>Пост Мэлоун</item>
+        <item>Эминем</item>
+        <item>Снуп Догг</item>
+        <item>Илон Маск</item>
+        <item>МистерБист</item>
+        <item>ПьюДиПай</item>
+        <item>Чарли Д’Амелио</item>
+        <item>Аддисон Рей</item>
+        <item>Эмма Чемберлен</item>
+    </string-array>
+
+    <string-array name="footballers">
+        <item>Лионель Месси</item>
+        <item>Криштиану Роналду</item>
+        <item>Неймар младший</item>
+        <item>Килиан Мбаппе</item>
+        <item>Эрлинг Холанд</item>
+        <item>Роберт Левандовски</item>
+        <item>Мохамед Салах</item>
+        <item>Кевин Де Брюйне</item>
+        <item>Лука Модрич</item>
+        <item>Карим Бензема</item>
+        <item>Вирджил ван Дейк</item>
+        <item>Харри Кейн</item>
+        <item>Антуан Гризманн</item>
+        <item>Садио Мане</item>
+        <item>Хын-Мин Сон</item>
+        <item>Бруну Фернандеш</item>
+        <item>Педри</item>
+        <item>Джуд Беллингем</item>
+        <item>Букайо Сака</item>
+        <item>Фил Фоден</item>
+        <item>Джамал Мусиала</item>
+        <item>Гави</item>
+        <item>Френки де Йонг</item>
+        <item>Жоау Феликс</item>
+        <item>Рафаэл Леан</item>
+        <item>Маркус Рашфорд</item>
+        <item>Джейдон Санчо</item>
+        <item>Расмус Хøйлунд</item>
+        <item>Лаутаро Мартинес</item>
+        <item>Душан Влахович</item>
+        <item>Пауло Дибала</item>
+        <item>Анхель Ди Мария</item>
+        <item>Каземиро</item>
+        <item>Тони Кроос</item>
+        <item>Джошуа Киммих</item>
+        <item>Тибо Куртуа</item>
+        <item>Алиссон Бекер</item>
+        <item>Эдерсон</item>
+        <item>Джанлуиджи Доннарумма</item>
+        <item>Мануэль Нойер</item>
+        <item>Икер Касильяс</item>
+        <item>Джанлуиджи Буффон</item>
+        <item>Серхио Рамос</item>
+        <item>Жерар Пике</item>
+        <item>Карлес Пуйоль</item>
+        <item>Дани Алвес</item>
+        <item>Марсело</item>
+        <item>Филипп Лам</item>
+        <item>Неманья Видич</item>
+        <item>Патрис Эвра</item>
+        <item>Андреа Пирло</item>
+        <item>Хави Эрнандес</item>
+        <item>Андрес Иньеста</item>
+        <item>Роналдиньо</item>
+        <item>Зинедин Зидан</item>
+        <item>Тьерри Анри</item>
+        <item>Дидье Дрогба</item>
+        <item>Дэвид Бекхэм</item>
+        <item>Уэйн Руни</item>
+        <item>Фрэнк Лэмпард</item>
+        <item>Стивен Джеррард</item>
+        <item>Кака</item>
+        <item>Роналдо Назарио</item>
+        <item>Пеле</item>
+        <item>Диего Марадона</item>
+        <item>Йохан Кройф</item>
+        <item>Джордж Бест</item>
+        <item>Эрик Кантона</item>
+        <item>Мирослав Клозе</item>
+        <item>Фернандо Торрес</item>
+        <item>Месут Озил</item>
+        <item>Марко Ройс</item>
+    </string-array>
+
+    <string name="spy">Шпион</string>
+
+    <string name="times_up">Время вышло!</string>
+
+    <string name="spies_guess_word">В игре всё ещё есть шпионы! Шпионы, раскройтесь и попытайтесь угадать слово. Если угадаете — вы победили. Если нет — победа за остальными.</string>
+
+    <string name="victory">Победа!</string>
+
+    <string name="you_won">Все шпионы были выведены до окончания времени. Отличная командная работа! Обычные игроки выигрывают этот раунд.</string>
+    <string name="ok">Хорошо!</string>
+
 </resources>

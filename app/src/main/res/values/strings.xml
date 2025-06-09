@@ -20,4 +20,621 @@
     <string name="player_number">Player Number </string>
     <string name="next_player">Next Player</string>
     <string name="start_timer">Start Timer</string>
+
+    <string-array name="locations">
+        <item>Bank</item>
+        <item>School</item>
+        <item>University</item>
+        <item>Cinema</item>
+        <item>Hospital</item>
+        <item>Police Station</item>
+        <item>Restaurant</item>
+        <item>Cafe</item>
+        <item>Supermarket</item>
+        <item>Park</item>
+        <item>Library</item>
+        <item>Zoo</item>
+        <item>Museum</item>
+        <item>Castle</item>
+        <item>Haunted Mansion</item>
+        <item>Enchanted Forest</item>
+        <item>Toilet</item>
+        <item>Jungle</item>
+        <item>Desert</item>
+        <item>Island</item>
+        <item>Hotel</item>
+        <item>Prison</item>
+        <item>Courtroom</item>
+        <item>Jail</item>
+        <item>Basement</item>
+        <item>Attic</item>
+        <item>Elevator</item>
+        <item>Dungeon</item>
+        <item>Throne Room</item>
+        <item>Nightclub</item>
+        <item>Bar</item>
+        <item>Casino</item>
+        <item>Gym</item>
+        <item>Water Park</item>
+        <item>Bowling Alley</item>
+        <item>Bookstore</item>
+        <item>New York City</item>
+        <item>Tokyo</item>
+        <item>Paris</item>
+        <item>London</item>
+        <item>Rome</item>
+        <item>Dubai</item>
+        <item>Egypt</item>
+        <item>Antarctica</item>
+        <item>Mount Everest</item>
+        <item>Venice</item>
+        <item>Sahara</item>
+        <item>Hogwarts</item>
+        <item>Space Station</item>
+        <item>Amusement Park</item>
+        <item>Beach</item>
+        <item>Subway Station</item>
+        <item>Airplane</item>
+        <item>Train Station</item>
+        <item>Bus Stop</item>
+        <item>Cruise Ship</item>
+        <item>Volcano</item>
+        <item>Underwater City</item>
+        <item>Lighthouse</item>
+        <item>Cave</item>
+        <item>Bridge</item>
+        <item>Observatory</item>
+        <item>Aquarium</item>
+        <item>Ice Palace</item>
+        <item>Stadium</item>
+        <item>Marketplace</item>
+        <item>Farm</item>
+        <item>Factory</item>
+        <item>Laboratory</item>
+        <item>Temple</item>
+        <item>Cemetery</item>
+        <item>Swamp</item>
+    </string-array>
+
+    <string-array name="jobs">
+        <item>Doctor</item>
+        <item>Teacher</item>
+        <item>Engineer</item>
+        <item>Police Officer</item>
+        <item>Firefighter</item>
+        <item>Chef</item>
+        <item>Waiter</item>
+        <item>Mechanic</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Farmer</item>
+        <item>Pilot</item>
+        <item>Flight Attendant</item>
+        <item>Actor</item>
+        <item>Singer</item>
+        <item>Dancer</item>
+        <item>Writer</item>
+        <item>Journalist</item>
+        <item>Photographer</item>
+        <item>Lawyer</item>
+        <item>Judge</item>
+        <item>Nurse</item>
+        <item>Dentist</item>
+        <item>Architect</item>
+        <item>Scientist</item>
+        <item>Programmer</item>
+        <item>Web Developer</item>
+        <item>Game Designer</item>
+        <item>Graphic Designer</item>
+        <item>Artist</item>
+        <item>Musician</item>
+        <item>Psychologist</item>
+        <item>Therapist</item>
+        <item>Librarian</item>
+        <item>Cashier</item>
+        <item>Receptionist</item>
+        <item>Construction Worker</item>
+        <item>Taxi Driver</item>
+        <item>Bus Driver</item>
+        <item>Soldier</item>
+        <item>Sailor</item>
+        <item>Fashion Designer</item>
+        <item>Model</item>
+        <item>Real Estate Agent</item>
+        <item>Banker</item>
+        <item>Accountant</item>
+        <item>Translator</item>
+        <item>Fitness Trainer</item>
+        <item>Magician</item>
+        <item>YouTuber</item>
+        <item>Astronaut</item>
+        <item>IT Specialist</item>
+        <item>Security Guard</item>
+        <item>Editor</item>
+        <item>Director</item>
+        <item>Producer</item>
+        <item>Voice Actor</item>
+        <item>Animator</item>
+        <item>Barber</item>
+        <item>Hairdresser</item>
+        <item>Makeup Artist</item>
+        <item>Social Media Manager</item>
+        <item>Delivery Driver</item>
+        <item>Cleaner</item>
+        <item>Nanny</item>
+        <item>Veterinarian</item>
+        <item>Biologist</item>
+        <item>Chemist</item>
+        <item>Historian</item>
+        <item>Tour Guide</item>
+        <item>Event Planner</item>
+        <item>Archaeologist</item>
+    </string-array>
+
+    <string-array name="animals">
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Horse</item>
+        <item>Cow</item>
+        <item>Pig</item>
+        <item>Sheep</item>
+        <item>Goat</item>
+        <item>Chicken</item>
+        <item>Duck</item>
+        <item>Goose</item>
+        <item>Turkey</item>
+        <item>Rabbit</item>
+        <item>Hamster</item>
+        <item>Guinea Pig</item>
+        <item>Mouse</item>
+        <item>Rat</item>
+        <item>Deer</item>
+        <item>Fox</item>
+        <item>Wolf</item>
+        <item>Bear</item>
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Leopard</item>
+        <item>Cheetah</item>
+        <item>Elephant</item>
+        <item>Giraffe</item>
+        <item>Zebra</item>
+        <item>Hippopotamus</item>
+        <item>Rhinoceros</item>
+        <item>Kangaroo</item>
+        <item>Koala</item>
+        <item>Panda</item>
+        <item>Monkey</item>
+        <item>Gorilla</item>
+        <item>Chimpanzee</item>
+        <item>Bat</item>
+        <item>Hedgehog</item>
+        <item>Squirrel</item>
+        <item>Raccoon</item>
+        <item>Skunk</item>
+        <item>Mole</item>
+        <item>Otter</item>
+        <item>Dolphin</item>
+        <item>Whale</item>
+        <item>Shark</item>
+        <item>Octopus</item>
+        <item>Squid</item>
+        <item>Crab</item>
+        <item>Lobster</item>
+        <item>Seal</item>
+        <item>Penguin</item>
+        <item>Eagle</item>
+        <item>Hawk</item>
+        <item>Owl</item>
+        <item>Parrot</item>
+        <item>Crow</item>
+        <item>Swan</item>
+        <item>Flamingo</item>
+        <item>Peacock</item>
+        <item>Pigeon</item>
+        <item>Seagull</item>
+        <item>Lizard</item>
+        <item>Snake</item>
+        <item>Frog</item>
+        <item>Toad</item>
+        <item>Crocodile</item>
+        <item>Turtle</item>
+        <item>Tortoise</item>
+        <item>Ant</item>
+        <item>Bee</item>
+        <item>Butterfly</item>
+        <item>Spider</item>
+    </string-array>
+
+    <string-array name="foods">
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Hot Dog</item>
+        <item>Sandwich</item>
+        <item>Pasta</item>
+        <item>Spaghetti</item>
+        <item>Lasagna</item>
+        <item>Salad</item>
+        <item>Soup</item>
+        <item>Steak</item>
+        <item>Chicken</item>
+        <item>Fish</item>
+        <item>Rice</item>
+        <item>Bread</item>
+        <item>Cheese</item>
+        <item>Egg</item>
+        <item>Sausage</item>
+        <item>Bacon</item>
+        <item>Fries</item>
+        <item>Nuggets</item>
+        <item>Omelet</item>
+        <item>Pancake</item>
+        <item>Waffle</item>
+        <item>Cereal</item>
+        <item>Yogurt</item>
+        <item>Ice Cream</item>
+        <item>Chocolate</item>
+        <item>Cake</item>
+        <item>Pie</item>
+        <item>Donut</item>
+        <item>Muffin</item>
+        <item>Cookie</item>
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Orange</item>
+        <item>Strawberry</item>
+        <item>Grapes</item>
+        <item>Watermelon</item>
+        <item>Pineapple</item>
+        <item>Mango</item>
+        <item>Peach</item>
+        <item>Lemon</item>
+        <item>Tomato</item>
+        <item>Cucumber</item>
+        <item>Carrot</item>
+        <item>Potato</item>
+        <item>Onion</item>
+        <item>Garlic</item>
+        <item>Corn</item>
+        <item>Peas</item>
+        <item>Beans</item>
+        <item>Lentils</item>
+        <item>Broccoli</item>
+        <item>Spinach</item>
+        <item>Cabbage</item>
+        <item>Mushroom</item>
+        <item>Avocado</item>
+        <item>Olive</item>
+        <item>Pickles</item>
+        <item>Ketchup</item>
+        <item>Mayonnaise</item>
+        <item>Mustard</item>
+        <item>Butter</item>
+        <item>Jam</item>
+        <item>Honey</item>
+        <item>Sugar</item>
+        <item>Salt</item>
+        <item>Pepper</item>
+        <item>Oil</item>
+        <item>Vinegar</item>
+        <item>Chicken Nuggets</item>
+        <item>Meatballs</item>
+    </string-array>
+
+    <string-array name="movies">
+        <item>Titanic</item>
+        <item>Avatar</item>
+        <item>Inception</item>
+        <item>The Godfather</item>
+        <item>The Dark Knight</item>
+        <item>Interstellar</item>
+        <item>Gladiator</item>
+        <item>Avengers: Endgame</item>
+        <item>Avengers: Infinity War</item>
+        <item>Iron Man</item>
+        <item>Spider-Man: No Way Home</item>
+        <item>Spider-Man: Homecoming</item>
+        <item>Doctor Strange</item>
+        <item>Captain America: Civil War</item>
+        <item>Black Panther</item>
+        <item>Thor: Ragnarok</item>
+        <item>The Lion King</item>
+        <item>Toy Story</item>
+        <item>Finding Nemo</item>
+        <item>Up</item>
+        <item>Frozen</item>
+        <item>Moana</item>
+        <item>Coco</item>
+        <item>Encanto</item>
+        <item>The Incredibles</item>
+        <item>Shrek</item>
+        <item>Despicable Me</item>
+        <item>Minions</item>
+        <item>Kung Fu Panda</item>
+        <item>Madagascar</item>
+        <item>How to Train Your Dragon</item>
+        <item>Harry Potter and the Sorcerer’s Stone</item>
+        <item>Harry Potter and the Deathly Hallows</item>
+        <item>Fantastic Beasts</item>
+        <item>Star Wars: A New Hope</item>
+        <item>Star Wars: The Force Awakens</item>
+        <item>The Hunger Games</item>
+        <item>Twilight</item>
+        <item>The Maze Runner</item>
+        <item>Divergent</item>
+        <item>The Chronicles of Narnia</item>
+        <item>Pirates of the Caribbean</item>
+        <item>The Lord of the Rings: The Fellowship of the Ring</item>
+        <item>The Hobbit</item>
+        <item>The Matrix</item>
+        <item>John Wick</item>
+        <item>Fast and Furious</item>
+        <item>Jurassic Park</item>
+        <item>Jurassic World</item>
+        <item>The Conjuring</item>
+        <item>It</item>
+        <item>Annabelle</item>
+        <item>Scream</item>
+        <item>A Quiet Place</item>
+        <item>Get Out</item>
+        <item>The Nun</item>
+        <item>Barbie</item>
+        <item>Oppenheimer</item>
+        <item>Dune</item>
+        <item>Wonka</item>
+        <item>The Meg</item>
+        <item>Godzilla vs. Kong</item>
+        <item>Puss in Boots: The Last Wish</item>
+        <item>Sing</item>
+        <item>Zootopia</item>
+        <item>Luca</item>
+        <item>Soul</item>
+        <item>Turning Red</item>
+        <item>Raya and the Last Dragon</item>
+        <item>Inside Out</item>
+    </string-array>
+
+    <string-array name="shows">
+        <item>Breaking Bad</item>
+        <item>Game of Thrones</item>
+        <item>Stranger Things</item>
+        <item>The Walking Dead</item>
+        <item>The Last of Us</item>
+        <item>The Mandalorian</item>
+        <item>Loki</item>
+        <item>WandaVision</item>
+        <item>Moon Knight</item>
+        <item>Hawkeye</item>
+        <item>Daredevil</item>
+        <item>The Punisher</item>
+        <item>Jessica Jones</item>
+        <item>The Boys</item>
+        <item>Invincible</item>
+        <item>The Witcher</item>
+        <item>Wednesday</item>
+        <item>Shadow and Bone</item>
+        <item>Arcane</item>
+        <item>House of the Dragon</item>
+        <item>Vikings</item>
+        <item>Vikings: Valhalla</item>
+        <item>Peaky Blinders</item>
+        <item>Sherlock</item>
+        <item>Doctor Who</item>
+        <item>Lucifer</item>
+        <item>Suits</item>
+        <item>Friends</item>
+        <item>How I Met Your Mother</item>
+        <item>The Big Bang Theory</item>
+        <item>Modern Family</item>
+        <item>Brooklyn Nine-Nine</item>
+        <item>The Office</item>
+        <item>Parks and Recreation</item>
+        <item>Rick and Morty</item>
+        <item>Family Guy</item>
+        <item>American Dad</item>
+        <item>The Simpsons</item>
+        <item>Gravity Falls</item>
+        <item>Adventure Time</item>
+        <item>Steven Universe</item>
+        <item>Teen Titans</item>
+        <item>Ben 10</item>
+        <item>Avatar: The Last Airbender</item>
+        <item>The Legend of Korra</item>
+        <item>The Umbrella Academy</item>
+        <item>The Flash</item>
+        <item>Arrow</item>
+        <item>Gotham</item>
+        <item>Supergirl</item>
+        <item>Smallville</item>
+        <item>The Crown</item>
+        <item>The Queen’s Gambit</item>
+        <item>Manifest</item>
+        <item>Prison Break</item>
+        <item>13 Reasons Why</item>
+        <item>Pretty Little Liars</item>
+        <item>Desperate Housewives</item>
+        <item>Lost</item>
+        <item>Heroes</item>
+        <item>House M.D.</item>
+        <item>The Good Doctor</item>
+        <item>Hannibal</item>
+        <item>Mr. Robot</item>
+        <item>Bates Motel</item>
+        <item>Euphoria</item>
+        <item>Glee</item>
+        <item>The Vampire Diaries</item>
+        <item>The Originals</item>
+        <item>Gossip Girl</item>
+        <item>Outer Banks</item>
+        <item>The 100</item>
+        <item>Riverdale</item>
+    </string-array>
+
+    <string-array name="celebrities">
+        <item>Taylor Swift</item>
+        <item>Beyoncé</item>
+        <item>Rihanna</item>
+        <item>Selena Gomez</item>
+        <item>Ariana Grande</item>
+        <item>Billie Eilish</item>
+        <item>Justin Bieber</item>
+        <item>Harry Styles</item>
+        <item>Zendaya</item>
+        <item>Timothée Chalamet</item>
+        <item>Leonardo DiCaprio</item>
+        <item>Johnny Depp</item>
+        <item>Brad Pitt</item>
+        <item>Tom Cruise</item>
+        <item>Dwayne Johnson</item>
+        <item>Chris Hemsworth</item>
+        <item>Chris Evans</item>
+        <item>Robert Downey Jr.</item>
+        <item>Scarlett Johansson</item>
+        <item>Emma Watson</item>
+        <item>Jennifer Lawrence</item>
+        <item>Natalie Portman</item>
+        <item>Margot Robbie</item>
+        <item>Millie Bobby Brown</item>
+        <item>Noah Schnapp</item>
+        <item>Finn Wolfhard</item>
+        <item>Sadie Sink</item>
+        <item>Jenna Ortega</item>
+        <item>Pedro Pascal</item>
+        <item>Keanu Reeves</item>
+        <item>Ryan Reynolds</item>
+        <item>Hugh Jackman</item>
+        <item>Zac Efron</item>
+        <item>Henry Cavill</item>
+        <item>Gal Gadot</item>
+        <item>Jason Momoa</item>
+        <item>Angelina Jolie</item>
+        <item>Anne Hathaway</item>
+        <item>Megan Fox</item>
+        <item>Will Smith</item>
+        <item>Jaden Smith</item>
+        <item>Morgan Freeman</item>
+        <item>Jim Carrey</item>
+        <item>Tom Hanks</item>
+        <item>Adam Sandler</item>
+        <item>Dylan O’Brien</item>
+        <item>Jacob Elordi</item>
+        <item>Florence Pugh</item>
+        <item>Paul Rudd</item>
+        <item>Benedict Cumberbatch</item>
+        <item>Andrew Garfield</item>
+        <item>Lewis Hamilton</item>
+        <item>Charles Leclerc</item>
+        <item>Max Verstappen</item>
+        <item>Lando Norris</item>
+        <item>George Russell</item>
+        <item>Fernando Alonso</item>
+        <item>Daniel Ricciardo</item>
+        <item>Carlos Sainz</item>
+        <item>Sebastian Vettel</item>
+        <item>Oscar Piastri</item>
+        <item>Michael Schumacher</item>
+        <item>Ayrton Senna</item>
+        <item>Lady Gaga</item>
+        <item>Shakira</item>
+        <item>Ed Sheeran</item>
+        <item>Drake</item>
+        <item>Post Malone</item>
+        <item>Eminem</item>
+        <item>Snoop Dogg</item>
+        <item>Elon Musk</item>
+        <item>MrBeast</item>
+        <item>PewDiePie</item>
+        <item>Charli D’Amelio</item>
+        <item>Addison Rae</item>
+        <item>Emma Chamberlain</item>
+    </string-array>
+
+    <string-array name="footballers">
+        <item>Lionel Messi</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Neymar Jr</item>
+        <item>Kylian Mbappé</item>
+        <item>Erling Haaland</item>
+        <item>Robert Lewandowski</item>
+        <item>Mohamed Salah</item>
+        <item>Kevin De Bruyne</item>
+        <item>Luka Modrić</item>
+        <item>Karim Benzema</item>
+        <item>Virgil van Dijk</item>
+        <item>Harry Kane</item>
+        <item>Antoine Griezmann</item>
+        <item>Sadio Mané</item>
+        <item>Heung-min Son</item>
+        <item>Bruno Fernandes</item>
+        <item>Pedri</item>
+        <item>Jude Bellingham</item>
+        <item>Bukayo Saka</item>
+        <item>Phil Foden</item>
+        <item>Jamal Musiala</item>
+        <item>Gavi</item>
+        <item>Frenkie de Jong</item>
+        <item>João Félix</item>
+        <item>Rafael Leão</item>
+        <item>Marcus Rashford</item>
+        <item>Jadon Sancho</item>
+        <item>Rasmus Højlund</item>
+        <item>Lautaro Martínez</item>
+        <item>Dusan Vlahović</item>
+        <item>Paulo Dybala</item>
+        <item>Ángel Di María</item>
+        <item>Casemiro</item>
+        <item>Toni Kroos</item>
+        <item>Joshua Kimmich</item>
+        <item>Thibaut Courtois</item>
+        <item>Alisson Becker</item>
+        <item>Ederson</item>
+        <item>Gianluigi Donnarumma</item>
+        <item>Manuel Neuer</item>
+        <item>Iker Casillas</item>
+        <item>Gianluigi Buffon</item>
+        <item>Sergio Ramos</item>
+        <item>Gerard Piqué</item>
+        <item>Carles Puyol</item>
+        <item>Dani Alves</item>
+        <item>Marcelo</item>
+        <item>Philipp Lahm</item>
+        <item>Nemanja Vidić</item>
+        <item>Patrice Evra</item>
+        <item>Andrea Pirlo</item>
+        <item>Xavi Hernández</item>
+        <item>Andrés Iniesta</item>
+        <item>Ronaldinho</item>
+        <item>Zinedine Zidane</item>
+        <item>Thierry Henry</item>
+        <item>Didier Drogba</item>
+        <item>David Beckham</item>
+        <item>Wayne Rooney</item>
+        <item>Frank Lampard</item>
+        <item>Steven Gerrard</item>
+        <item>Kaká</item>
+        <item>Ronaldo Nazário</item>
+        <item>Pelé</item>
+        <item>Diego Maradona</item>
+        <item>Johan Cruyff</item>
+        <item>George Best</item>
+        <item>Eric Cantona</item>
+        <item>Miroslav Klose</item>
+        <item>Fernando Torres</item>
+        <item>Mesut Özil</item>
+        <item>Marco Reus</item>
+    </string-array>
+
+    <string name="spy">Spy</string>
+
+    <string name="times_up">Time’s Up!</string>
+
+    <string name="spies_guess_word">There are still spies in the game! Spies, reveal yourselves and guess the word. Guess it right — you win. Guess it wrong — the others win.</string>
+
+
+    <string name="victory">Victory!</string>
+
+    <string name="you_won">All the spies have been eliminated before time ran out. Great teamwork! The regular players win this round.</string>
+    <string name="ok">Ok!</string>
+
+
 </resources>

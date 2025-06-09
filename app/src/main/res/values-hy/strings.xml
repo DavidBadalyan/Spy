@@ -20,4 +20,619 @@
     <string name="player_number">Խաղացող Համար </string>
     <string name="next_player">Հաջորդ Խաղացող</string>
     <string name="start_timer">Սկսել Ժամանակը</string>
+
+    <string-array name="locations">
+        <item>Բանկ</item>
+        <item>Դպրոց</item>
+        <item>Համալսարան</item>
+        <item>Կինոթատրոն</item>
+        <item>Հիվանդանոց</item>
+        <item>Ոստիկանության բաժին</item>
+        <item>Ռեստորան</item>
+        <item>Սրճարան</item>
+        <item>Սուպերմարկետ</item>
+        <item>Այգի</item>
+        <item>Գրադարան</item>
+        <item>Կենդանաբանական այգի</item>
+        <item>Թանգարան</item>
+        <item>Դղյակ</item>
+        <item>Ուրվականներով տուն</item>
+        <item>Կախարդված անտառ</item>
+        <item>Զուգարան</item>
+        <item>Ջունգլի</item>
+        <item>Անապատ</item>
+        <item>Կղզի</item>
+        <item>Հյուրանոց</item>
+        <item>Բանտ</item>
+        <item>Դատական դահլիճ</item>
+        <item>Բանտախուց</item>
+        <item>Նկուղ</item>
+        <item>Տանիքահարկ</item>
+        <item>Վերելակ</item>
+        <item>Զնդան</item>
+        <item>Գահասրահ</item>
+        <item>Գիշերային ակումբ</item>
+        <item>Բար</item>
+        <item>Խաղատուն</item>
+        <item>Մարզասրահ</item>
+        <item>Ջրաշխարհ</item>
+        <item>Բոուլինգի սրահ</item>
+        <item>Գրախանութ</item>
+        <item>Նյու Յորք</item>
+        <item>Տոկիո</item>
+        <item>Փարիզ</item>
+        <item>Լոնդոն</item>
+        <item>Հռոմ</item>
+        <item>Դուբայ</item>
+        <item>Եգիպտոս</item>
+        <item>Անտարկտիդա</item>
+        <item>Էվերեստ</item>
+        <item>Վենետիկ</item>
+        <item>Սահարա</item>
+        <item>Հոգվարթս</item>
+        <item>Տիեզերակայան</item>
+        <item>Զվարճանքի այգի</item>
+        <item>Լողափ</item>
+        <item>Մետրոյի կայարան</item>
+        <item>Ինքնաթիռ</item>
+        <item>Երկաթուղային կայարան</item>
+        <item>Ավտոբուսի կանգառ</item>
+        <item>Քրուիզային նավ</item>
+        <item>Հրաբուխ</item>
+        <item>Ջրասույզ քաղաք</item>
+        <item>Փարոս</item>
+        <item>Քարանձավ</item>
+        <item>Կամուրջ</item>
+        <item>Աստղադիտարան</item>
+        <item>Օվկիանարիում</item>
+        <item>Սառցե պալատ</item>
+        <item>Մարզադաշտ</item>
+        <item>Շուկա</item>
+        <item>Ֆերմա</item>
+        <item>Գործարան</item>
+        <item>Լաբորատորիա</item>
+        <item>Տաճար</item>
+        <item>Գերեզմանատուն</item>
+        <item>Ճահիճ</item>
+    </string-array>
+
+    <string-array name="jobs">
+        <item>Բժիշկ</item>
+        <item>Ուսուցիչ</item>
+        <item>Ինժեներ</item>
+        <item>Ոստիկան</item>
+        <item>Հրշեջ</item>
+        <item>Խոհարար</item>
+        <item>Մատուցող</item>
+        <item>Մեխանիկ</item>
+        <item>Ջրմուղագործ</item>
+        <item>Էլեկտրիկ</item>
+        <item>Գյուղացի</item>
+        <item>Օդաչու</item>
+        <item>Ստյուարդեսսա</item>
+        <item>Դերասան</item>
+        <item>Երգիչ</item>
+        <item>Պարող</item>
+        <item>Գրող</item>
+        <item>Լրագրող</item>
+        <item>Լուսանկարիչ</item>
+        <item>Փաստաբան</item>
+        <item>Դատավոր</item>
+        <item>Բուժքույր</item>
+        <item>Ատամնաբույժ</item>
+        <item>Ճարտարապետ</item>
+        <item>Գիտնական</item>
+        <item>Ծրագրավորող</item>
+        <item>Վեբ ծրագրավորող</item>
+        <item>Խաղերի դիզայներ</item>
+        <item>Գրաֆիկ դիզայներ</item>
+        <item>Նկարիչ</item>
+        <item>Երաժիշտ</item>
+        <item>Հոգեբան</item>
+        <item>Թերապևտ</item>
+        <item>Գրադարանավար</item>
+        <item>Դրամարկղի աշխատող</item>
+        <item>Ընդունարանում աշխատող</item>
+        <item>Շինարար</item>
+        <item>Տաքսու վարորդ</item>
+        <item>Ավտոբուսի վարորդ</item>
+        <item>Զինվոր</item>
+        <item>Նավաստի</item>
+        <item>Հագուստի դիզնայներ</item>
+        <item>Մոդել</item>
+        <item>Գույքի գործակալ</item>
+        <item>Բանկիր</item>
+        <item>Հաշվապահ</item>
+        <item>Թարգմանիչ</item>
+        <item>Մարզիչ</item>
+        <item>Հրաշագործ</item>
+        <item>Յութուբեր</item>
+        <item>Տիեզերագնաց</item>
+        <item>ՏՏ մասնագետ</item>
+        <item>Անվտանգության պահակ</item>
+        <item>Խմբագիր</item>
+        <item>Ռեժիսոր</item>
+        <item>Արտադրող</item>
+        <item>Ձայնասփյուռի դերասան</item>
+        <item>Անիմատոր</item>
+        <item>Վարսավիր</item>
+        <item>Մազերի ստիլիստ</item>
+        <item>Դիմահարդար</item>
+        <item>Սոցիալական ցանցերի մենեջեր</item>
+        <item>Առաքիչ</item>
+        <item>Մաքրարար</item>
+        <item>Դայակ</item>
+        <item>Կենդանաբույժ</item>
+        <item>Կենսաբան</item>
+        <item>Քիմիկոս</item>
+        <item>Պատմաբան</item>
+        <item>Տուրիստական ուղեկցորդ</item>
+        <item>Միջոցառումների կազմակերպիչ</item>
+        <item>Հնագետ</item>
+    </string-array>
+
+    <string-array name="animals">
+        <item>Շուն</item>
+        <item>Կատու</item>
+        <item>Ձի</item>
+        <item>Կով</item>
+        <item>Խոզ</item>
+        <item>Ոչխար</item>
+        <item>Այծ</item>
+        <item>Հավ</item>
+        <item>Բադ</item>
+        <item>Սագ</item>
+        <item>Հնդկահավ</item>
+        <item>Նապաստակ</item>
+        <item>Հեմստեր</item>
+        <item>Ծովախոզուկ</item>
+        <item>Մուկ</item>
+        <item>Առնետ</item>
+        <item>Եղջերու</item>
+        <item>Աղվես</item>
+        <item>Գայլ</item>
+        <item>Արջ</item>
+        <item>Առյուծ</item>
+        <item>Վագր</item>
+        <item>Ընձառյուծ</item>
+        <item>Հովազ</item>
+        <item>Փիղ</item>
+        <item>Ընձուղտ</item>
+        <item>Զեբր</item>
+        <item>Գետաձի</item>
+        <item>Ռնգեղջյուր</item>
+        <item>Կենգուրու</item>
+        <item>Կոալա</item>
+        <item>Պանդա</item>
+        <item>Կապիկ</item>
+        <item>Գորիլա</item>
+        <item>Շիմպանզե</item>
+        <item>Չղջիկ</item>
+        <item>Ոզնի</item>
+        <item>Սկյուռ</item>
+        <item>Կզաքիս</item>
+        <item>Սկունս</item>
+        <item>Խլուրդ</item>
+        <item>Դելֆին</item>
+        <item>Կետ</item>
+        <item>Շնաձուկ</item>
+        <item>Ութոտնուկ</item>
+        <item>Կաղամար</item>
+        <item>Խեցգետին</item>
+        <item>Օմար</item>
+        <item>Փոկ</item>
+        <item>Պինգվին</item>
+        <item>Արծիվ</item>
+        <item>Բազե</item>
+        <item>Բու</item>
+        <item>Թութակ</item>
+        <item>Կաչաղակ</item>
+        <item>Կարապ</item>
+        <item>Ֆլամինգո</item>
+        <item>Սիրամարգ</item>
+        <item>Արագիլ</item>
+        <item>Աղավնի</item>
+        <item>Ճայ</item>
+        <item>Մողես</item>
+        <item>Օձ</item>
+        <item>Գորտ</item>
+        <item>Դոդոշ</item>
+        <item>Կոկորդիլոս</item>
+        <item>Կրիա</item>
+        <item>Սողուն կրիա</item>
+        <item>Մրջյուն</item>
+        <item>Մեղու</item>
+        <item>Թիթեռ</item>
+        <item>Սարդ</item>
+    </string-array>
+
+    <string-array name="foods">
+        <item>Պիցցա</item>
+        <item>Բուրգեր</item>
+        <item>Հոթ-դոգ</item>
+        <item>Սենդվիչ</item>
+        <item>Պաստա</item>
+        <item>Սպագետի</item>
+        <item>Լազանիա</item>
+        <item>Աղցան</item>
+        <item>Ապուր</item>
+        <item>Սթեյք</item>
+        <item>Հավ</item>
+        <item>Ձուկ</item>
+        <item>Բրինձ</item>
+        <item>Հաց</item>
+        <item>Պանիր</item>
+        <item>Ձու</item>
+        <item>Նրբերշիկ</item>
+        <item>Բեկոն</item>
+        <item>Կարտոֆիլի ֆրի</item>
+        <item>Նագեթս</item>
+        <item>Օմլետ</item>
+        <item>Բլինչիկ</item>
+        <item>Վաֆլի</item>
+        <item>Խլոպյա</item>
+        <item>Յոգուրտ</item>
+        <item>Պաղպաղակ</item>
+        <item>Շոկոլադ</item>
+        <item>Տորթ</item>
+        <item>Պիրոգ</item>
+        <item>Դոնաթ</item>
+        <item>Մաֆին</item>
+        <item>Խմորեղեն</item>
+        <item>Խնձոր</item>
+        <item>Բանան</item>
+        <item>Նարինջ</item>
+        <item>Ելակ</item>
+        <item>Խաղող</item>
+        <item>Ձմերուկ</item>
+        <item>Անանաս</item>
+        <item>Մանգո</item>
+        <item>Դեղձ</item>
+        <item>Կիտրոն</item>
+        <item>Լոլիկ</item>
+        <item>Վարունգ</item>
+        <item>Գազար</item>
+        <item>Կարտոֆիլ</item>
+        <item>Սոխ</item>
+        <item>Սխտոր</item>
+        <item>Եգիպտացորեն</item>
+        <item>Կանաչ ոլոռ</item>
+        <item>Լոբի</item>
+        <item>Ոսպ</item>
+        <item>Բրոկկոլի</item>
+        <item>Սպանախ</item>
+        <item>Կաղամբ</item>
+        <item>Սունկ</item>
+        <item>Ավոկադո</item>
+        <item>Ձիթապտուղ</item>
+        <item>Մարինադ</item>
+        <item>Կետչուպ</item>
+        <item>Մայոնեզ</item>
+        <item>Մանանեխ</item>
+        <item>Կարագ</item>
+        <item>Ջեմ</item>
+        <item>Մեղր</item>
+        <item>Շաքարավազ</item>
+        <item>Աղ</item>
+        <item>Պղպեղ</item>
+        <item>Բուսայուղ</item>
+        <item>Քացախ</item>
+        <item>Հավի նագեթս</item>
+        <item>Մսագնդիկներ</item>
+    </string-array>
+
+    <string-array name="movies">
+        <item>Տիտանիկ</item>
+        <item>Ավատար</item>
+        <item>Սկիզբ</item>
+        <item>Կնքահայրը</item>
+        <item>Մութ ասպետը</item>
+        <item>Աստղային ճանապարհ</item>
+        <item>Գլադիատոր</item>
+        <item>Վրիժառուները: Վերջնախաղ</item>
+        <item>Վրիժառուները: Անվերջության պատերազմ</item>
+        <item>Երկաթե մարդը</item>
+        <item>Սարդ-մարդ: Ոչ մի ճանապարհ տուն</item>
+        <item>Սարդ-մարդ: Տնօրհնեքի վերադարձ</item>
+        <item>Դոկտոր Սթրեյնջ</item>
+        <item>Կապիտան Ամերիկան: Քաղաքացիական պատերազմ</item>
+        <item>Սև հովազը</item>
+        <item>Թոր: Ռագնարոկ</item>
+        <item>Առյուծ արքան</item>
+        <item>Խաղալիքների պատմություն</item>
+        <item>Նեմոյի որոնումներում</item>
+        <item>Վերև</item>
+        <item>Սառցե Սիրտը</item>
+        <item>Մոանա</item>
+        <item>Կոկո</item>
+        <item>Էնկանտո</item>
+        <item>Սուպերընտանիքը</item>
+        <item>Շրեկ</item>
+        <item>Գարշահոտ Ես</item>
+        <item>Մինյոններ</item>
+        <item>Կունգ Ֆու Պանդա</item>
+        <item>Մադագասկար</item>
+        <item>Ինչպես վարժեցնել վիշապին</item>
+        <item>Հարի Փոթեր և փիլիսոփայական քարը</item>
+        <item>Հարրի Փոթեր և Մահվան պարգևները</item>
+        <item>Ֆանտաստիկ գազաններ</item>
+        <item>Աստղային պատերազմներ: Նոր հույս</item>
+        <item>Աստղային պատերազմներ: Ուժի զարթոնք</item>
+        <item>Սովի խաղեր</item>
+        <item>Մթնշաղ</item>
+        <item>Լաբիրինթոսում վազողը</item>
+        <item>Տարբեր</item>
+        <item>Նարնիայի տարեգրությունը</item>
+        <item>Կարիբյան ծովի ծովահենները</item>
+        <item>Մատանիների տիրակալը: Մատանու ընկերությունը</item>
+        <item>Հոբիթը</item>
+        <item>Մատրիցա</item>
+        <item>Ջոն Ուիկ</item>
+        <item>Արագ և Բորբոքված</item>
+        <item>Յուրայական Պարկ</item>
+        <item>Յուրայի Աշխարհ</item>
+        <item>Վհուկների կանչը</item>
+        <item>Այն</item>
+        <item>Աննաբել</item>
+        <item>Ճիչ</item>
+        <item>Լուռ Վայրը</item>
+        <item>Դուրս արի</item>
+        <item>Քույր Վարդապետուհին</item>
+        <item>Բարբի</item>
+        <item>Օպենհայմեր</item>
+        <item>Դյունա</item>
+        <item>Վոնկա</item>
+        <item>Մեգը</item>
+        <item>Գոձիլա ընդդեմ Կոնգի</item>
+        <item>Կոշկավոր Կատուն: Վերջին ցանկություն</item>
+        <item>Երգիր</item>
+        <item>Զոոտոպիա</item>
+        <item>Լուկա</item>
+        <item>Հոգի</item>
+        <item>Կարմրում եմ</item>
+        <item>Ռայա և վերջին վիշապը</item>
+        <item>Ներսից դուրս</item>
+    </string-array>
+
+    <string-array name="shows">
+        <item>Կոտրված ճանապարհներ</item>
+        <item>Գահերի խաղը</item>
+        <item>Տարօրինակ բաներ</item>
+        <item>Քայլող մեռյալները</item>
+        <item>Մեր վերջինները</item>
+        <item>Մանդալորինցին</item>
+        <item>Լոկի</item>
+        <item>Վանդավիժըն</item>
+        <item>Լուսնային ասպետը</item>
+        <item>Աղեղնաձիգը</item>
+        <item>Դարդևիլ</item>
+        <item>Պատժողը</item>
+        <item>Ջեսիկա Ջոնս</item>
+        <item>Տղաները</item>
+        <item>Անպարտելի</item>
+        <item>Վհուկը</item>
+        <item>Ուենսդեյ</item>
+        <item>Ստվեր և ոսկոր</item>
+        <item>Արկեյն</item>
+        <item>Վիշապների տունը</item>
+        <item>Վիկինգներ</item>
+        <item>Վիկինգներ․ Վալհալա</item>
+        <item>Սուր երեսներ</item>
+        <item>Շերլոք</item>
+        <item>Դոկտոր Ով</item>
+        <item>Լյուցիֆեր</item>
+        <item>Կոստյումավորներ</item>
+        <item>Ընկերներ</item>
+        <item>Ինչպես հանդիպեցի ձեր մորը</item>
+        <item>Մեծ պայթյունի տեսություն</item>
+        <item>Ժամանակակից ընտանիք</item>
+        <item>Բրուքլին 99</item>
+        <item>Գրասենյակ</item>
+        <item>Զվարճանքների պուրակ</item>
+        <item>Ռիկ և Մորթի</item>
+        <item>Ընտանիքի տղան</item>
+        <item>Ամերիկացի հայրիկ</item>
+        <item>Սիմփսոնները</item>
+        <item>Գրավիթի Ֆոլզ</item>
+        <item>Արկածների ժամանակ</item>
+        <item>Սթիվեն Յունիվերս</item>
+        <item>Թին Տայթանս</item>
+        <item>Բեն 10</item>
+        <item>Ավատար․ Վերջին օդի կախարդը</item>
+        <item>Կոռայի լեգենդը</item>
+        <item>Հովանոցային ակադեմիա</item>
+        <item>Ֆլեշ</item>
+        <item>Նետ</item>
+        <item>Գոթամ</item>
+        <item>Սուպերաղջիկը</item>
+        <item>Սմոլվիլ</item>
+        <item>Թագը</item>
+        <item>Թագուհու գամբիտը</item>
+        <item>Մանիֆեստ</item>
+        <item>Փախուստ</item>
+        <item>13 պատճառ</item>
+        <item>Խաբեբա աղջիկները</item>
+        <item>Հուսահատ տնային տնտեսուհիներ</item>
+        <item>Կորածները</item>
+        <item>Հերոսներ</item>
+        <item>Դոկտոր Հաուս</item>
+        <item>Լավ բժիշկը</item>
+        <item>Հաննիբալ</item>
+        <item>Միստր Ռոբոտ</item>
+        <item>Բեյթսի մոտել</item>
+        <item>Եյֆորիա</item>
+        <item>Գլի</item>
+        <item>Վամպիրի օրագրերը</item>
+        <item>Սկզբնաղբյուրները</item>
+        <item>Սպլետնիկ</item>
+        <item>Արտաքին ափեր</item>
+        <item>Հարյուրը</item>
+        <item>Ռիվերդեյլ</item>
+    </string-array>
+
+    <string-array name="celebrities">
+        <item>Թեյլոր Սվիֆթ</item>
+        <item>Բեյոնսե</item>
+        <item>Ռիհաննա</item>
+        <item>Սելենա Գոմես</item>
+        <item>Արիանա Գրանդե</item>
+        <item>Բիլլի Այլիշ</item>
+        <item>Ջասթին Բիբեր</item>
+        <item>Հարի Սթայլս</item>
+        <item>Զենդայա</item>
+        <item>Թիմոթի Շալամե</item>
+        <item>Լեոնարդո ԴիԿապրիո</item>
+        <item>Ջոնի Դեփ</item>
+        <item>Բրեդ Փիթ</item>
+        <item>Ԧոմ Քրուզ</item>
+        <item>Դուեյն Ջոնսոն</item>
+        <item>Քրիս Հեմսվորթ</item>
+        <item>Քրիս Էվանս</item>
+        <item>Ռոբերտ Դաունի կրտսեր</item>
+        <item>Սքարլեթ Յոհանսոն</item>
+        <item>Էմմա Ուոթսոն</item>
+        <item>Ջենիֆեր Լոուրենս</item>
+        <item>Նատալի Փորթման</item>
+        <item>Մարգո Ռոբի</item>
+        <item>Միլլի Բոբի Բրաուն</item>
+        <item>Նոա Շնապ</item>
+        <item>Ֆին Վոլֆհարդ</item>
+        <item>Սեյդի Սինք</item>
+        <item>Ջեննա Օրտեգա</item>
+        <item>Պեդրո Պասկալ</item>
+        <item>Քիանու Ռիվզ</item>
+        <item>Ռայան Ռեյնոլդս</item>
+        <item>Հյու Ջեքման</item>
+        <item>Զակ Էֆրոն</item>
+        <item>Հենրի Քավիլ</item>
+        <item>Գալ Գադոտ</item>
+        <item>Ջեյսոն Մոմոա</item>
+        <item>Անջելինա Ջոլի</item>
+        <item>Էն Հաթաուեյ</item>
+        <item>Մեգան Ֆոքս</item>
+        <item>Ուիլ Սմիթ</item>
+        <item>Ջեյդեն Սմիթ</item>
+        <item>Մորգան Ֆրիման</item>
+        <item>Ջիմ Քերի</item>
+        <item>Թոմ Հենքս</item>
+        <item>Ադամ Սենդլեր</item>
+        <item>Դիլան Օ’Բրայեն</item>
+        <item>Ջեյքոբ Էլորդի</item>
+        <item>Ֆլորենս Փյու</item>
+        <item>Փոլ Ռադ</item>
+        <item>Բենեդիկտ Քամբերբաչ</item>
+        <item>Էնդրյու Գարֆիլդ</item>
+        <item>Լյուիս Հեմիլթոն</item>
+        <item>Շարլ Լեկլեր</item>
+        <item>Մաքս Ֆերստապեն</item>
+        <item>Լանդո Նորրիս</item>
+        <item>Ջորջ Ռասել</item>
+        <item>Ֆեռնանդո Ալոնսո</item>
+        <item>Դանիել Ռիկկարդո</item>
+        <item>Կարլոս Սայնս</item>
+        <item>Սեբաստիան Ֆետել</item>
+        <item>Օսկար Պիաստրի</item>
+        <item>Միխայել Շումախեր</item>
+        <item>Այրտոն Սեննա</item>
+        <item>Լեյդի Գագա</item>
+        <item>Շակիրա</item>
+        <item>Էդ Շիրան</item>
+        <item>Դրեյք</item>
+        <item>Փոսթ Մալոն</item>
+        <item>Էմինեմ</item>
+        <item>Սնուփ Դոգ</item>
+        <item>Իլոն Մասկ</item>
+        <item>Միսթրբիստ</item>
+        <item>Փյուդիպայ</item>
+        <item>Չարլի Դ’Ամելիո</item>
+        <item>Ադիսոն Ռեյ</item>
+        <item>Էմմա Չեմբերլեյն</item>
+    </string-array>
+
+    <string-array name="footballers">
+        <item>Լիոնել Մեսսի</item>
+        <item>Քրիշտիանու Ռոնալդու</item>
+        <item>Նեյմար կրտսեր</item>
+        <item>Կիլիան Մբապպե</item>
+        <item>Էրլինգ Հոլանդ</item>
+        <item>Ռոբերտ Լևանդովսկի</item>
+        <item>Մոհամեդ Սալահ</item>
+        <item>Կևին Դե Բրյույնե</item>
+        <item>Լուկա Մոդրիչ</item>
+        <item>Կարիմ Բենզեմա</item>
+        <item>Վիրջիլ վան Դեյկ</item>
+        <item>Հարրի Քեյն</item>
+        <item>Անտուան Գրիզման</item>
+        <item>Սադիո Մանե</item>
+        <item>Հյոն Մին Սոն</item>
+        <item>Բրունո Ֆերնանդեշ</item>
+        <item>Պեդրի</item>
+        <item>Ջուդ Բելինգհեմ</item>
+        <item>Բուքայո Սակա</item>
+        <item>Ֆիլ Ֆոդեն</item>
+        <item>Ջամալ Մուսիալա</item>
+        <item>Գավի</item>
+        <item>Ֆրենկի դե Յոնգ</item>
+        <item>Ժոաու Ֆելիքս</item>
+        <item>Ռաֆայել Լեաու</item>
+        <item>Մարկուս Ռաշֆորդ</item>
+        <item>Ջեյդոն Սանչո</item>
+        <item>Ռասմուս Հոյլունդ</item>
+        <item>Լաուտարո Մարտինես</item>
+        <item>Դուշան Վլահովիչ</item>
+        <item>Պաուլո Դիբալա</item>
+        <item>Անխել Դի Մարիա</item>
+        <item>Կազեմիրո</item>
+        <item>Տոնի Կրոս</item>
+        <item>Ջոշուա Կիմմիխ</item>
+        <item>Տիբո Կուրտուա</item>
+        <item>Ալիսոն Բեքեր</item>
+        <item>Էդերսոն</item>
+        <item>Ջանլուիջի Դոննարումա</item>
+        <item>Մանուել Նոյեր</item>
+        <item>Իկեր Կասիլյաս</item>
+        <item>Ջանլուիջի Բուֆֆոն</item>
+        <item>Սերխիո Ռամոս</item>
+        <item>Ժերար Պիկե</item>
+        <item>Կարլես Պույոլ</item>
+        <item>Դանի Ալվես</item>
+        <item>Մարսելո</item>
+        <item>Ֆիլիպ Լամ</item>
+        <item>Նեմանյա Վիդիչ</item>
+        <item>Պատրիս Էվրա</item>
+        <item>Անդրեա Պիռլո</item>
+        <item>Խավի Էռնանդես</item>
+        <item>Անդրես Ինիեստա</item>
+        <item>Ռոնալդինյո</item>
+        <item>Զինեդին Զիդան</item>
+        <item>Տիերի Անրի</item>
+        <item>Դիդյե Դրոգբա</item>
+        <item>Դեյվիդ Բեքհեմ</item>
+        <item>Ուեյն Ռունի</item>
+        <item>Ֆրենկ Լեմպարդ</item>
+        <item>Սթիվեն Ջերարդ</item>
+        <item>Կակա</item>
+        <item>Ռոնալդո Նազարիո</item>
+        <item>Պելե</item>
+        <item>Դիեգո Մարադոնա</item>
+        <item>Յոհան Կրույֆ</item>
+        <item>Ջորջ Բեստ</item>
+        <item>Էրիկ Կանտոնա</item>
+        <item>Միրոսլավ Կլոզե</item>
+        <item>Ֆեռնանդո Տորես</item>
+        <item>Մեսութ Օզիլ</item>
+        <item>Մարկո Ռոյս</item>
+    </string-array>
+
+    <string name="spy">Լրտես</string>
+
+    <string name="times_up">Ժամանակը սպառվել է</string>
+
+    <string name="spies_guess_word">Խաղում դեռ կան լրտեսներ։ Լրտեսներ, բացահայտվեք և փորձեք գուշակել բառը։ Եթե ճիշտ գուշակեք՝ դուք կհաղթեք։ Եթե սխալ գուշակեք՝ հաղթում են մյուսները։</string>
+
+    <string name="victory">Հաղթանակ</string>
+
+    <string name="you_won">Բոլոր լրտեսները բացահայտվել են մինչ ժամանակի սպառվելը։ Հիանալի թիմային աշխատանք։ Սովորական խաղացողները հաղթեցին այս փուլում։</string>
+    <string name="ok">Լավ</string>
+
 </resources>

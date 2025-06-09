@@ -27,6 +27,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
             android:padding="12dp"
             android:src="@drawable/ic_players"
             app:tint="?android:attr/textColorPrimary" />
@@ -94,6 +95,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
             android:padding="12dp"
             android:src="@drawable/ic_spy"
             app:tint="?android:attr/textColorPrimary"/>
@@ -161,6 +163,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
             android:padding="12dp"
             android:src="@drawable/ic_time"
             app:tint="?android:attr/textColorPrimary"/>

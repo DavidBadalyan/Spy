@@ -32,10 +32,12 @@
             android:layout_height="match_parent"
             android:background="@drawable/word_card"
             android:text=""
+            android:textColor="?attr/colorOnPrimary"
             android:textSize="16sp"
             android:elevation="0dp" />
 
         <ImageView
+            android:id="@+id/icon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

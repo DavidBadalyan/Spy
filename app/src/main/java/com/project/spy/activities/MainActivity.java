@@ -12,8 +12,11 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.fragment.app.FragmentManager;
+
 import com.project.spy.R;
+import com.project.spy.fragments.CategoriesFragment;
 import com.project.spy.fragments.LanguageFragment;
+import com.project.spy.fragments.SettingsFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,7 +51,17 @@ public class MainActivity extends AppCompatActivity {
             );
         });
 
-        back.setOnClickListener(v -> getSupportFragmentManager().popBackStack());
+        back.setOnClickListener(v -> {
+            Fragment currentFragment = getSupportFragmentManager().findFragmentById(R.id.fragment_container);
+            if (currentFragment instanceof SettingsFragment) {
+                getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, new CategoriesFragment())
+                        .commit();
+            } else {
+                getSupportFragmentManager().popBackStack();
+            }
+        });
 
         getSupportFragmentManager().registerFragmentLifecycleCallbacks(
                 new FragmentManager.FragmentLifecycleCallbacks() {
