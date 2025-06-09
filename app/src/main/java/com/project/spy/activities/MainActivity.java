@@ -12,11 +12,14 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.fragment.app.FragmentManager;
+import androidx.lifecycle.ViewModelProvider;
 
 import com.project.spy.R;
 import com.project.spy.fragments.CategoriesFragment;
 import com.project.spy.fragments.LanguageFragment;
+import com.project.spy.fragments.MainGameFragment;
 import com.project.spy.fragments.SettingsFragment;
+import com.project.spy.viewmodel.GameViewModel;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -56,8 +59,23 @@ public class MainActivity extends AppCompatActivity {
             if (currentFragment instanceof SettingsFragment) {
                 getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.fragment_container, new CategoriesFragment())
+                        .replace(R.id.fragment_container, new LanguageFragment())
+                        .addToBackStack("LanguageFragment")
                         .commit();
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, new CategoriesFragment())
+                        .addToBackStack("CategoriesFragment")
+                        .commit();
+            } else if (currentFragment instanceof MainGameFragment) {
+                GameViewModel gameViewModel = new ViewModelProvider(this).get(GameViewModel.class);
+                gameViewModel.resetGameState();
+                getSupportFragmentManager().popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+                getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.fragment_container, new SettingsFragment())
+                        .addToBackStack("SettingsFragment")
+                        .commit();
+            } else if (currentFragment instanceof CategoriesFragment) {
+                getSupportFragmentManager().popBackStack("LanguageFragment", 0);
             } else {
                 getSupportFragmentManager().popBackStack();
             }
@@ -77,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
             back.setVisibility(View.GONE);
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.fragment_container, new LanguageFragment())
+                    .addToBackStack("LanguageFragment")
                     .commit();
         }
     }

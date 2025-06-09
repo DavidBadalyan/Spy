@@ -12,7 +12,7 @@
         android:layout_marginTop="150dp"
         android:text="@string/player_number"
         android:textColor="?android:attr/textColorPrimary"
-        android:textSize="32sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

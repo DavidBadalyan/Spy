@@ -21,6 +21,7 @@
         android:textSize="24sp"
         android:background="@drawable/button_next"
         android:textColor="?attr/colorOnPrimary"
+        android:layout_marginBottom="30dp"
         android:text="00:00" />
 
 </LinearLayout>
